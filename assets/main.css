@@ -1,0 +1,16 @@
+.container {
+  position: relative;
+  width: 35px;
+  height: 35px;
+
+  & span {
+    width: 15px;
+    height: 15px;
+    background-color: blue;
+    color: white;
+    border-radius: 100px;
+    position: absolute;
+    top: 0;
+    right: 2px;
+  }
+}
